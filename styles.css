@@ -28,15 +28,21 @@ h1, h2, h3{
 }
 
 h1{
-    text-decoration: solid underline var(--purple) 4px;
+    text-decoration-line: underline;
+    text-decoration-color: var(--purple);
+    text-decoration-thickness: 4px;
 }
 
 h2{
-    text-decoration: solid underline var(--orange) 3px;
+    text-decoration-line: underline;
+    text-decoration-color: var(--orange);
+    text-decoration-thickness: 3px;
 }
 
 h3{
-    text-decoration: solid underline var(--violet) 2px;
+    text-decoration-line: underline;
+    text-decoration-color: var(--violet);
+    text-decoration-thickness: 2px;
 }
 
 p{
